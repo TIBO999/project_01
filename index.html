@@ -9,8 +9,8 @@
 </head>
 
 <body>
-	<div class="container">
-		<header class="main-header">
+	<header class="main-header padding-site">
+		<div class="container-float">
 			<div class="main-header-wrapper">
 				<h1 class="main-header-title">Product name</h1>
 				<ul class="main-header-list">
@@ -21,9 +21,11 @@
 				</ul>
 			</div>
 			<img class="main-header-product-photo" src="#" alt="product-photo" width="469" height="214">
-		</header>
-		<main class="content">
-			<section class="about-product">
+		</div>
+	</header>
+	<main class="content">
+		<section class="about-product padding-site">
+			<div class="container-float">
 				<div class="about-product-wrapper">
 					<h2 class="about-product-title">About your product</h2>
 					<div class="about-paragraph-text">
@@ -35,9 +37,16 @@
 							dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
 					</div>
 				</div>
-				<video class="about-product-video" src="#" width="430" height="245"></video>
-			</section>
-			<section class="dignity">
+				<video class="about-product-video" controls autoplay preload="auto" muted width="430" height="245"
+					poster="img/t.jpg">
+					<source src="video/anim-dino-5-l_MaKKhQVN.mp4">
+					Элемент video не поддерживается вашим браузером.
+					<a href="video/anim-dino-5-l_MaKKhQVN.mp4">Скачайте видео</a>
+				</video>
+			</div>
+		</section>
+		<section class="dignity padding-site">
+			<div class="container-float">
 				<h2 class="dignity-title">Dignity and pluses product</h2>
 				<ul class="dignity-list">
 					<li class="dignity-list-item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet
@@ -73,8 +82,10 @@
 						maxime,
 						quaerat porro totam, dolore minus inventore.</li>
 				</ul>
-			</section>
-			<section class="screenshots padding-site">
+			</div>
+		</section>
+		<section class="screenshots padding-site">
+			<div class="container-flex">
 				<h2 class="screenshots-title">Screenshots</h2>
 				<figure class="screenshots-item">
 					<img class="screenshots-photo" src="#" alt="">
@@ -112,8 +123,10 @@
 							ut ipsum.</p>
 					</figcaption>
 				</figure>
-			</section>
-			<section class="reviews padding-site">
+			</div>
+		</section>
+		<section class="reviews padding-site">
+			<div class="container-flex">
 				<h2 class="reviews-title">Reviews </h2>
 				<div class="reviews-item">
 					<img class="reviews-avatar" src="img/t.jpg" alt="">
@@ -147,8 +160,10 @@
 						<a href="#">Lourens S.</a>
 					</p>
 				</div>
-			</section>
-			<section class="buy-it-now padding-site">
+			</div>
+		</section>
+		<section class="buy-it-now padding-site">
+			<div class="container-flex-end">
 				<h3 class="buy-it-now_title">Buy it now</h3>
 				<div class="buy-it-now_card">
 					<span class="buy-it-now_card_level">Standart</span>
@@ -195,10 +210,12 @@
 					</ol>
 					<button class="buy-it-now_card_btn"><a href="#">BUY</a></button>
 				</div>
-			</section>
-		</main>
-		<footer>
-			<section class="main-footer">
+			</div>
+		</section>
+	</main>
+	<footer>
+		<section class="main-footer padding-site">
+			<div class="container-flex-center">
 				<span class="main-footer_title">Contacts</span>
 				<form class="main-footer_form" action="#" method="post">
 					<input type="text" placeholder="Your name:">
@@ -218,12 +235,15 @@
 						<a href="#" class="main-footer-contacts-net icon4"></a>
 					</div>
 				</div>
-			</section>
-			<section class="copyright">
+			</div>
+
+		</section>
+		<section class="copyright padding-site">
+			<div class="container-flex">
 				<p>Copyright © 2014 Product name · PSD HTML CSS</p>
-			</section>
-		</footer>
-	</div>
+			</div>
+		</section>
+	</footer>
 </body>
 
 </html>
